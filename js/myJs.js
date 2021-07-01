@@ -14,12 +14,13 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title'Anoo Ẻm Kute!',
+        title:'Anoo Ẻm Kute!',
         text:'Đka có điều này muốn hỏi mài nhớ phải trả lời thật lòng nhaaa.',
         imageUrl: '../img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
+        imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
       })
